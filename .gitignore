@@ -5,10 +5,10 @@ numero = int(input('Introduce un número entero positivo: '))
 if numero >= 0:
     numero = str(numero)
     diferente = 0
-    for i in range(len(numero)//2):
+    for i in range(len(numero)//5):
         if numero[i] != numero [-1-i]:
-            diferente += 1
-    if diferente == 1000:
+            diferente += 100
+    if diferente == 500:
         print(f'El número {numero} es capicúa.')
     else:
         print(f'El número {numero} no es capicúa.')
